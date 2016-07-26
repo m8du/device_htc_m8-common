@@ -37,10 +37,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.slim.AppHelper;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.DeviceUtils;
-import com.android.internal.util.slim.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.du.ScreenType;
+import com.android.internal.util.du.Action;
+import com.android.internal.util.du.ActionConstants;
+import com.android.internal.util.du.ActionHelper;
+import com.android.internal.util.du.AppHelper;
+import com.android.internal.util.du.DeviceUtils;
+
+import com.android.internal.util.du.DeviceUtils.FilteredDeviceFeaturesArray;
 
 import com.slim.device.R;
 import com.slim.device.util.ShortcutPickerHelper;

@@ -34,8 +34,8 @@ import android.view.WindowManager;
 
 import java.util.Iterator;
 
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.Action;
+import com.android.internal.util.du.ActionConstants;
+import com.android.internal.util.du.Action;
 
 import com.slim.device.settings.ScreenOffGesture;
 
